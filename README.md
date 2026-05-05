@@ -1,9 +1,11 @@
 # Pokemon Classifier
 주어진 포켓몬 이미지 데이터셋을 활용하여 포켓몬 분류(Classifier) 모델 구현 프로젝트
 
+## Data Set 
+[text](https://www.kaggle.com/datasets/lantian773030/pokemonclassification)
 
 ## 1. 실험 설정 (4가지)
-다음 4가지 설정으로 실험 및 성능을 비교합니다.
+다음 4가지 설정으로 실험 및 성능을 비교.
 1. **Model A (Custom CNN)**: Base line 모델로 사용자가 직접 설계한 간단한 CNN 모델
 2. **Model B (ResNet18 - From Scratch)**: 사전 학습(Pretrained) 가중치를 사용하지 않고 처음부터 학습한 ResNet18
 3. **Model C (ResNet18 - Feature Extractor)**: ImageNet 사전 학습 가중치를 유지한 채, 마지막 Linear layer(분류기)만 학습
@@ -11,7 +13,7 @@
 
 ## 2. 학습 결과 및 성능 평가
 
-다음은 각 모델의 Validation 데이터셋을 통한 성능 평가 수치입니다. (Precision/Recall은 Macro Average 기준)
+다음은 각 모델의 Validation 데이터셋을 통한 성능 평가 수치. (Precision/Recall은 Macro Average 기준)
 
 | 실험 설정 | Test Accuracy | Test Precision | Test Recall | 비고 (특징 및 원인) |
 | --- | --- | --- | --- | --- |
