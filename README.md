@@ -2,7 +2,7 @@
 주어진 포켓몬 이미지 데이터셋을 활용하여 포켓몬 분류(Classifier) 모델 구현 프로젝트
 
 ## Data Set 
-[text](https://www.kaggle.com/datasets/lantian773030/pokemonclassification)
+[Kaggle 7,000 labeled Pokemon](https://www.kaggle.com/datasets/lantian773030/pokemonclassification)
 
 ## 1. 실험 설정 (4가지)
 다음 4가지 설정으로 실험 및 성능을 비교.
